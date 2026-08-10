@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer gold ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="4"
+        android:pathData="M54,20 A34,34 0 1,1 53.99,20 Z" />
+    <!-- Hour hand -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F4E5B2"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L54,34" />
+    <!-- Minute hand -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F4E5B2"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L70,54" />
+    <!-- Center cap -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M54,54 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+</vector>
